@@ -1,38 +1,207 @@
-.App {
-  text-align: center;
+.app {
+  /* width: 375px; */
+  /* background-color: white; */
+  margin: 24px 16px;
+  /* width: 100vh; */
+  /* min-height: 100vh; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box {
+  /* height: 50px; */
+  /* width: 343px; */
+  margin-top: 10px;
+  padding: 10px;
   display: flex;
-  flex-direction: column;
+  gap: 16px;
+  border-radius: 10px;
+
+}
+
+.backColor {
+  background-color: #F7FAFD;
+
+}
+
+.font800 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  
+}
+
+.font500 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+
+
+}
+
+.title {
+  
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.notificationBox {
+  /* background-color: gray; */
+  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 10px;
+}
+
+.notificationNumber {
+  width: 32px;
+  height: 25px;
+  background-color: #0A327B;
   color: white;
+  border-radius: 10px;
+
+  font-size: 16px;
+  /* line-height: 20px; */
+  letter-spacing: 0px;
+  text-align: left;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+.button {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #5E6778;
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.button:hover {
+  color: #0A327B;
+}
+
+/* .boxInformationBox { */
+  /* display: flex; */
+/* } */
+
+.imgBox {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  width: 39px;
+  height: 39px;
+  border-radius: 20px;
+}
+
+.name {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #1C202B;
+  margin-right: 5px;
+  /* text-decoration: none; */
+  
+}
+
+.name:hover {
+  color: #0A327B;
+  cursor: pointer;
+}
+
+.info {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #5E6778;
+  margin-right: 5px;
+  
+}
+
+.company {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #5E6778;
+  text-decoration: none;
+  margin-right: 5px;
+
+  
+}
+
+.company:hover {
+  color: #0A327B;
+}
+
+.day {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #939CAD;
+  
+}
+
+.sms {
+  border: 3px solid #DDE7EE;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.sms:hover {
+  cursor: pointer;
+  background-color: #E5EFFA;
+}
+
+.redBall {
+  width: 8px;
+  height: 8px;
+  /* top: 8px; */
+  /* left: 546px; */
+  background-color: #F65552;
+  /* margin-top: 5px; */
+  display: inline-block;
+  border-radius: 20px;
+  
+}
+
+.imageTwo {
+  width: 39px;
+  height: 39px;
+  /* left: 276px; */
+  
+}
+
+
+
+
+/* ///////////////////////////////////////////////// */
+@media screen and (min-width: 950px) {
+  .app {
+    width: 730px;
+    padding: 30px;
+    background-color: white;
+    /* Warning */
+    margin: 0;
+    border-radius: 20px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
 }
